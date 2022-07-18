@@ -5,7 +5,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read()
 setup(
     name='ghfetch',
-    version='0.0.1',
+    version='0.1.0',
     author='Wooferz',
     author_email='contact@wooferz.dev',
     license='MIT',
