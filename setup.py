@@ -5,7 +5,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read()
 setup(
     name='ghfetch',
-    version='0.1.1',
+    version='0.1.2',
     author='Wooferz',
     author_email='contact@wooferz.dev',
     license='MIT',
@@ -14,8 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/woooferz/ghfetch',
     py_modules=['ghfetch', 'app'],
-    package_dir={'':"src"},
-    packages=find_packages("src"),
+    packages=find_packages(),
     install_requires=[requirements],
     python_requires='>=3.7',
     classifiers=[
